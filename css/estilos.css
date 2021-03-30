@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/***************/
+/**CSS LANDING**/
+/*NO BORRAR*/
+/*necesario para que la imagen del lanfing esté centrada horizontal y verticalmente*/
+body {
+   min-height:100vh;
+}
+
+.flex-fill {
+   flex:1 1 auto;
+}
+/***************/
+
+
+
+/***************/
+/**CSS HOME 1**/
+.marqueeinicio{
+background-color: #EE1D60; 
+color: #FFFFFF;
+}
+
+.container {
+display: flex; 
+align-content: center;
+}
+/***************/
