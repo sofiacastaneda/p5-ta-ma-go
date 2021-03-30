@@ -27,4 +27,20 @@ color: #FFFFFF;
 display: flex; 
 align-content: center;
 }
+
+/*Botón explore de las cards*/
+.botoncitoexplore{
+color: #EE1D60;	
+border-color: #EE1D60;		
+}
+
+.botoncitoexplore:hover{
+background-color: #EE1D60;	
+}
+
+.botoncitoexplore:active:focus{
+background-color: #EE1D60 !important;
+box-shadow: none;	
+}
+
 /***************/
