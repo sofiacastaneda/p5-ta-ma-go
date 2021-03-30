@@ -24,3 +24,5 @@ So, which are the words?
 >
 >Everything here has something to do with speech, its written representation through characters, letters, symbols, poetry and/or communication.
 
+________________________________________
+###### Follow me on twtt*r for updates: @scmosq
