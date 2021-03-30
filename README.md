@@ -1,4 +1,4 @@
-<img src="https://github.com/sofiacastaneda/p5-ta-ma-go/blob/main/images/p5tamago_logo.png" width="200">
+<img src="https://github.com/sofiacastaneda/p5-ta-ma-go/blob/main/images/tamago_logo-06.png" width="200">
 
 ## [た·ま·ご / ta·ma·go]
 
