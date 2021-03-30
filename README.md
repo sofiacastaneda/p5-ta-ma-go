@@ -6,18 +6,19 @@ The word `"tamago"` means egg in japanese. However, if you break down each of it
 
 So, which are the words?
 
+>
 ### たま
 `ta·ma : ball; sphere; globe; orb.`
 
 Everything here has something to do with circles: its shape, boundaries, curve; as well as repetition or loops (circling back) - end connected to beginning.
 
-
+>
 ### ま
 `ma : time; pause; space.`
 
 Everything here has something to do with temporality, transience or the dimensions of height, depth, and width within which all things exist and move.
 
-
+>
 ### ご
 `go : language; word.`
 
