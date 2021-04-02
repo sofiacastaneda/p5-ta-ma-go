@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ta·ma / た·ま</title>
+    <title>ta·ma / た·ま / 玉</title>
     <!-- Bootstrap -->
 	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
 	<link href="css/estilos.css" rel="stylesheet" type="text/css">
@@ -16,23 +16,65 @@
 	  <div class="row">
 		
 	  <!--MENU FIJO IZQ-->
-	  <nav class="col-md-2 sidebar" style="background-color: aqua;">
+	  <div class="col-xl-2 sidebar catalog">
       <!--contenido menú-->
-	  </nav>
+	  <nav class="navbar flex-column nav-justified text-center navbar-expand-xl sticky-top">
+	  <!--imagen cabecera-->	  	  
+	  <img src="images/huevitoblancotama.png" alt="" class="imagenav mx-auto">
+	  <!--links navegación-->
+	  <!--home-->	  
+      <a class="nav-link active" href="home.html"><img src="images/navitem-home.png" alt="Go home" class="navitemme"></a>
+	  <!--ma-->	  
+      <a class="nav-link active" href="#"><img src="images/navitem-ma.png" alt="Go ma" class="navitemme"></a>
+	  <!--go-->	  
+      <a class="nav-link active" href="#"><img src="images/navitem-go.png" alt="Go go" class="navitemme"></a>
+	  <!--see all-->		  
+      <a class="nav-link active" href="#"><img src="images/navitem-see-all.png" alt="Go see all" class="navitemme"></a>
+	  <!--?-->  
+	  <a class="nav-link active" href="#"><img src="images/navitem-question.png" alt="Go ?" class="navitemme"></a>	  
+      </nav> 
+	  </div>
 		 
 	  <!--********************--->	  
 		  
 	  <!--CONTENIDO--> 
-	  <div class="col-10 catalog" style="background-color: orange;">
-	  
-	  <!--Encabezado-->  
-	  <div>
-	  <h1>SOME TEXT</h1>
-	  </div>
+	  <div class="col-xl-10 catalog">
+	
+	  <!--Encabezado--> 
+	  <!--la clase cabecita hace que el header tenga un width completo-->
+		  
+	  <div class="sticky-top container-fluid mb-3 cabecita">
+		  <div class="p-3 mt-3">
+		  <img src="images/tamastickyheadertop.png" alt="たま" style="width: 100px;" class="mb-3">	  
+          <h6 class="card-subtitle mb-2 text-monospace font-weight-bold">ta·ma : ball; sphere; globe; orb.</h6>
+    	<p class="card-text small strong text-monospace font-italic">Keywords: circles, boundaries, curve, repetition, loops.</p>	
+		  </div>	  
+		  </div>
 		  
       <!--Contenido-->  
-	  <div>
+	  <div class="container mt-3">
+
+	  <!--IMPORTANTE: TODAS LAS CARDS DEBEN IR DENTRO DE ESTE DIV PARA HACER PARTE DEL MOSAICO-->	  
 	  <div class="card-columns">
+	  <!--TODAS DEBEN TENER LA CLASE TARJETASKETCH-->
+ 
+		  
+	  <!--SKETCH 01--><!--vertical--> 
+	  <div class="card tarjetasketch" style="width: 250px">
+		<!--IMAGEN CANVAS-->  
+  	  	<img src="Sketches/Img/00.png" class="card-img-top" alt="Dibujo de una casa hecho en computador">
+	  <!--CONTENIDO-->  
+      <div class="card-body p-3">
+      	<h5 class="card-title titulotarjeta">For painting</h5>
+	  	<h6 class="card-subtitle small mb-2 text-muted font-italic font-weight-bold ">for, vertex, nested for </h6>      
+      	<p class="card-text font-weight-normal">A cute house and lil' fishy that were made using nested fors and custom shapes.</p>
+      </div>
+      <div class="card-footer bg-transparent">
+      	<a href="https://editor.p5js.org/sofiasofia/sketches/wGoPNA493" class="card-link-footertarjeta font-weight-bold mr-3">Sketch</a>
+      	<a href="#" class="card-link-footertarjeta">Github</a>
+      </div>
+</div>
+		  
   <div class="card">
     <img src="..." class="card-img-top" alt="...">
     <div class="card-body">
@@ -95,8 +137,60 @@
       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
     </div>
   </div>
+    <div class="card text-center">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+  </div>
+  <div class="card p-3 text-right">
+    <blockquote class="blockquote mb-0">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+      <footer class="blockquote-footer">
+        <small class="text-muted">
+          Someone famous in <cite title="Source Title">Source Title</cite>
+        </small>
+      </footer>
+    </blockquote>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>		  
+		  
+	  
 </div>
-	  </div>	  
+
+<!--SKETCH 02--><!--horizontal-->  
+<!--<div class="card tarjetasketch mb-3" style="width: 600px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="Sketches/Img/01.png" alt="..." style="width: 200px; height: 196px;">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body p-3">
+        <h5 class="card-title titulotarjeta">Card title</h5>
+		<h6 class="card-subtitle small mb-2 text-muted font-italic font-weight-bold ">categoría, categoría, categoría </h6>  
+        <p class="card-text font-weight-normal">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+	  <div class="card-footer bg-transparent">
+      	<a href="#" class="card-link-footertarjeta font-weight-bold mr-3">Sketch</a>
+      	<a href="#" class="card-link-footertarjeta">Github</a>
+      </div>
+    </div>
+  </div>
+</div>-->	
+		  
+		  
+	  </div>
+		  
 	  </div>	 
 	  </div>
 	  </div>

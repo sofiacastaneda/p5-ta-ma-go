@@ -4,7 +4,7 @@
 /***************/
 /**CSS LANDING**/
 /*NO BORRAR*/
-/*necesario para que la imagen del lanfing esté centrada horizontal y verticalmente*/
+/*necesario para que la imagen del landing esté centrada horizontal y verticalmente*/
 body {
    min-height:100vh;
 }
@@ -45,16 +45,77 @@ box-shadow: none;
 }
 
 /***************/
+/***************/
+/***************/
+/***************/
+/***************/
 
 
+/*ELEMENTOS MENU DE CADA PALABRA*/
+
+/*Menú nav fijo izquierda*/
 .sidebar {
     /*position: fixed;*/
     top: 0;
     bottom: 0;
     left: 0;
     z-index: 100;
+	background-color: #EE1D60;
+	color: #FFFFFF;
 }
 
-.catalog{
-   min-height:100vh;	
+.imagenav{
+width:150px;
+height:150px;
+float:left;
 }
+
+.navitemme{
+width:150px;
+overflow-x: hidden;	
+}
+
+/* Clase que permite que la altura de los containers sea la página completa"*/
+.catalog{
+   /*min-height:100vh;*/
+}
+
+/***************/
+
+/*Para el header sticky*/
+.cabecita{
+padding: 0 !important;
+margin: 0 !important;
+width: 100%;
+background-color: #EE1D60 ;
+color: #FFFFFF;	
+}
+
+/***************/
+
+/*Tarjetas de las secciones de palabras*/
+/*Para que el efecto de mosaico funcione*/
+.tarjetasketch{
+display: inline-block;
+column-break-inside: avoid;	
+}
+
+/*Personalización tarjetas sketches*/
+.titulotarjeta{
+color: #EE1D60;	
+}
+
+.card-link-footertarjeta{
+	color: #EE1D60 !important;
+}
+
+.card-link-footertarjeta:hover{
+	color: #EE1D60 !important;	
+}
+
+.card-link-footertarjeta:focus{
+	color: #EE1D60 !important;	
+}
+
+/***************/
+
